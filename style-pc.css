@@ -1,0 +1,204 @@
+@font-face {
+  font-family: "alegreyaregular";
+  src: url("files/alegreya-regular-webfont.eot");
+  src: url("files/alegreya-regular-webfont.eot") format("embedded-opentype"),
+    url("files/alegreya-regular-webfont.woff") format("woff"),
+    url("files/alegreya-regular-webfont.ttf") format("truetype"),
+    url("files/alegreya-regular-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "black_jackregular";
+  src: url("filesB/blackjack-webfont.eot");
+  src: url("filesB/blackjack-webfont.eot?#iefix") format("embedded-opentype"),
+    url("filesB/blackjack-webfont.woff2") format("woff2"),
+    url("filesB/blackjack-webfont.woff") format("woff"),
+    url("filesB/blackjack-webfont.ttf") format("truetype"),
+    url("filesB/blackjack-webfont.svg#black_jackregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 980px;
+  margin: auto;
+}
+
+header {
+  padding: 5px;
+  background-image: url("img/header.jpg");
+  color: white;
+  font-size: 2rem;
+}
+
+header {
+  min-height: 50px;
+}
+
+article {
+  height: 300px;
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background: white;
+}
+
+h1,
+h2 {
+  font-family: "black_jackregular", Arial, serif;
+
+  text-align: center;
+}
+
+nav {
+  position: sticky;
+  top: 0px;
+  /* background-image: url(lac-des-sapin.jpg); */
+}
+
+nav {
+  font-family: "alegreyaregular", Verdana, Tahoma, sans-serif;
+  font-size: 0.9rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+}
+nav a {
+  color: black;
+}
+
+li {
+  font-family: "Cinzel", serif;
+  font-weight: 590;
+}
+
+nav ul {
+  margin-left: -50px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px; /* marge intÃ©rieure dans bloc rubrique */
+}
+
+nav a:link {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/*nav a:visited {
+          color: #FFFFFF;
+          text-decoration:none;	
+      }*/
+
+nav a:hover {
+  background-color: white;
+  color: rgb(156, 154, 154);
+  border-radius: 10px;
+}
+
+/*nav a:active {
+          color: #FF0000;
+          text-decoration:none;		
+      }*/
+
+section {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 15px;
+  background: grey;
+  
+}
+
+article {
+  width: auto;
+  margin-top: 15px;
+  background: white;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+section article ul {
+  text-align: center;
+  list-style: none;
+}
+
+footer {
+  background: grey;
+  width: 100%;
+  margin-top: 10px;
+  box-shadow: 0px -12px grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+footer p a {
+  text-decoration: none;
+  color: black;
+}
+
+i {
+  font-size: 2.5rem;
+  margin-left: 60px;
+}
+/*body {
+          overflow-y: hidden; 
+       }*/
+       #typedtext
+       {
+         font-family: "black_jackregular", Arial, serif;
+         
+       }
+
+       /* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.topnav {
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  height: 70px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}

@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'alegreyaregular';
+    src: url('files/alegreya-regular-webfont.eot');
+    src: url('files/alegreya-regular-webfont.eot') format('embedded-opentype'),
+         url('files/alegreya-regular-webfont.woff') format('woff'),
+         url('files/alegreya-regular-webfont.ttf') format('truetype'),
+         url('files/alegreya-regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'black_jackregular';
+    src: url('filesB/blackjack-webfont.eot');
+    src: url('filesB/blackjack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('filesB/blackjack-webfont.woff2') format('woff2'),
+         url('filesB/blackjack-webfont.woff') format('woff'),
+         url('filesB/blackjack-webfont.ttf') format('truetype'),
+         url('filesB/blackjack-webfont.svg#black_jackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body {
+    width : 1000px ; 
+    margin : 20px auto 20px auto; 
+    }
+    
+    header{
+        padding: 5px;
+        background-image: url("img/header.jpg");
+        color:white;
+        font-size: 2rem;
+    }
+    
+    nav,section,footer {
+    background : grey ; 
+    width : 100% ; 
+    border : 1px solid black ; 
+    margin-top : 10px ; 	
+    box-shadow : 5px 5px 5px grey; 
+    }
+    
+    header,nav, footer {
+    min-height : 50px ; 
+    }
+    
+    section {
+    min-height : 400px ; 
+    }
+    
+    article {
+    float : left ; 
+    height : 300px ; 
+    width : 48% ; 
+    margin-left : 1% ; 
+    margin-right : 1% ; 
+    background : white ;  
+    }
+    
+    h1,h2 {
+        
+    font-family: 'black_jackregular', Arial, serif;
+   
+    text-align : center ;  
+   }  
+
+
+    .nav_background {
+        position:sticky;
+        top:0px;
+        /* background-image: url(lac-des-sapin.jpg); */
+    }
+    
+    nav
+    {
+        font-family: 'alegreyaregular', Verdana, Tahoma, sans-serif;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        background-color: rgba(0, 0, 0, 0.7);
+        width:100%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    nav ul  
+    {
+        margin-left: -50px;
+    }
+    
+    nav ul li  
+    {
+        display:inline-block;
+        color:#FFFFFF;
+        padding:10px;           /* marge intÃ©rieure dans bloc rubrique */ 
+    }
+    
+    nav a:link {
+        color: #FFFFFF;
+        text-decoration:none;	
+        padding:10px;
+    }
+    
+    nav a:visited {
+        color: #FFFFFF;
+        text-decoration:none;	
+    }
+    
+    nav a:hover {
+        background-color: white;
+        color: #FF0000;
+        text-decoration:underline;	
+        }
+        
+    
+    nav a:active {
+        color: #FF0000;
+        text-decoration:none;		
+    }
+    
+    nav ul li:hover {
+        background-color: white;	
+    }
